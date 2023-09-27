@@ -7,7 +7,7 @@
     - [Higher dimensionality](#higher-dimensionality)
     - [Nominal](#nominal)
     - [Modified original attribute value](#modified-original-attribute-value)
-  - [Question 02 (2 pts)](#question-02-2-pts)
+  - [Question 2 (2 pts)](#question-2-2-pts)
   - [Question 3 (2 pts)](#question-3-2-pts)
   - [Question 4 (1 pts)](#question-4-1-pts)
   - [Question 5 (1 pts)](#question-5-1-pts)
@@ -108,7 +108,7 @@
 - [ ] Geometric Mean
 - [x] Brings challenges
 
-## Question 02 (2 pts)
+## Question 2 (2 pts)
 
 In an exam the score for each question is P points if the answer is correct
 and -P points (negative points) if the answer is incorrect.
