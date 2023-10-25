@@ -1,0 +1,3 @@
+[submodule "csc177-group-project"]
+	path = csc177-group-project
+	url = git@github.com:matt2ology/csc177-group-project.git
