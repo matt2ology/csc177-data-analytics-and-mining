@@ -247,7 +247,6 @@ array(
 
 #### Question 16 - 10 pts
 
-
 From the given dataset find the
 
 - mean
