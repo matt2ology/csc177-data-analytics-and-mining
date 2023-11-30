@@ -1,5 +1,17 @@
 # Quiz4 - KNN, Logistic Regression (Logit), Association Analysis and Miscellaneous
 
+- [Quiz4 - KNN, Logistic Regression (Logit), Association Analysis and Miscellaneous](#quiz4---knn-logistic-regression-logit-association-analysis-and-miscellaneous)
+  - [Question 1](#question-1)
+  - [Question 2](#question-2)
+  - [Question 3: Logistic regression assumes a](#question-3-logistic-regression-assumes-a)
+  - [Question 4: Regarding bias and variance, which of the following statements are true?](#question-4-regarding-bias-and-variance-which-of-the-following-statements-are-true)
+  - [Question 5: Adding more basis functions in a linear model](#question-5-adding-more-basis-functions-in-a-linear-model)
+  - [Question 6: Choose which data mining task is the most suitable for the following scenario: diagnosing the level of flood severity](#question-6-choose-which-data-mining-task-is-the-most-suitable-for-the-following-scenario-diagnosing-the-level-of-flood-severity)
+  - [Question 7](#question-7)
+  - [Question 8](#question-8)
+  - [Question 9: The inference made by an association rule does not necessarily imply causality](#question-9-the-inference-made-by-an-association-rule-does-not-necessarily-imply-causality)
+  - [Question 10](#question-10)
+
 ## Question 1
 
     Which of the following statements is true about the k-NN algorithm?
