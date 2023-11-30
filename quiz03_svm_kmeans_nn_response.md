@@ -1,5 +1,22 @@
 # Quiz 3 - SVM, K-Means, NN
 
+- [Quiz 3 - SVM, K-Means, NN](#quiz-3---svm-k-means-nn)
+  - [Question 1: SVM cannot be used when points of both classes are scattered equally in same regions](#question-1-svm-cannot-be-used-when-points-of-both-classes-are-scattered-equally-in-same-regions)
+  - [Question 2: If only a few points are misclassified in SVM around the support vector, then the method uses slack variables](#question-2-if-only-a-few-points-are-misclassified-in-svm-around-the-support-vector-then-the-method-uses-slack-variables)
+  - [Question 3: Hierarchical clustering uses minimum distance between points in two clusters if the clusters are small and maximum distance between points in two clusters if the clusters are large](#question-3-hierarchical-clustering-uses-minimum-distance-between-points-in-two-clusters-if-the-clusters-are-small-and-maximum-distance-between-points-in-two-clusters-if-the-clusters-are-large)
+  - [Question 4: K-Means Clustering algorithm is guaranteed to stop](#question-4-k-means-clustering-algorithm-is-guaranteed-to-stop)
+  - [Question 5: K-Means Clustering strictly prohibits starting with initial random centroids too far away from the original clusters](#question-5-k-means-clustering-strictly-prohibits-starting-with-initial-random-centroids-too-far-away-from-the-original-clusters)
+  - [Question 6](#question-6)
+  - [Question 7](#question-7)
+  - [Question 8](#question-8)
+  - [Question 9](#question-9)
+  - [Question 10](#question-10)
+  - [Question 11](#question-11)
+  - [Question 12](#question-12)
+  - [Question 13: Explain in which situations F1 Score is desirable over Accuracy](#question-13-explain-in-which-situations-f1-score-is-desirable-over-accuracy)
+  - [Question 14](#question-14)
+
+
 ## Question 1: SVM cannot be used when points of both classes are scattered equally in same regions
 
 - [ ] True
