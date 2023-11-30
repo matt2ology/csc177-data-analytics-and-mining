@@ -1,6 +1,6 @@
 # Quiz 3 - SVM, K-Means, NN
 
-## Question 1: SVM cannot be used when points of both classes are scattered equally in same regions.
+## Question 1: SVM cannot be used when points of both classes are scattered equally in same regions
 
 - [ ] True
 - [ ] False
@@ -10,7 +10,7 @@
 - [ ] True
 - [ ] False
 
-## Question 3: Hierarchical clustering uses minimum distance between points in two clusters if the clusters are small and maximum distance between points in two clusters if the clusters are large.
+## Question 3: Hierarchical clustering uses minimum distance between points in two clusters if the clusters are small and maximum distance between points in two clusters if the clusters are large
 
 - [ ] True
 - [ ] False
@@ -84,10 +84,10 @@ F-1 Score = `\_\_\_`
 
 ## Question 14
 
-In the following diagram  the circles are points (5, 25) and (15, 25).
+In the following diagram the circles are points (5, 25) and (15, 25).
 The triangles are (5, 1) and (5, 11). So the distance between the circle points
 is 10 points in the x1 direction and the distance between the triangle points
-is 10 points away in the x2 direction.  The crosses are two initial centroids.
+is 10 points away in the x2 direction. The crosses are two initial centroids.
 (9, 25) and (5, 4). Using your intuition, predict the final location of the
 centroids when the KNN clustering algorithm stops given that (9, 25) is
 relatively closer to the circles than the triangles and (5, 4) is relatively
