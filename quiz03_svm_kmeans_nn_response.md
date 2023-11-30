@@ -1,6 +1,6 @@
 # Quiz 3 - SVM, K-Means, NN
 
-## Question 1: SVM cannot be used when points of both classes are scattered equally in same regions.
+## Question 1: SVM cannot be used when points of both classes are scattered equally in same regions
 
 - [ ] True
 - [x] False
@@ -33,7 +33,7 @@ True. The K-Means Clustering algorithm is guaranteed to stop. The algorithm iter
 - [ ] True
 - [x] False
 
- False. K-Means Clustering does not strictly prohibit starting with initial random centroids too far away from the original clusters. The initial centroids in K-Means Clustering are usually chosen randomly and the algorithm does not have a built-in mechanism to ensure that they are close to the final cluster centers. However, starting with centroids too far away from the original clusters may lead to sub-optimal solutions or require more iterations for the algorithm to converge.
+False. K-Means Clustering does not strictly prohibit starting with initial random centroids too far away from the original clusters. The initial centroids in K-Means Clustering are usually chosen randomly and the algorithm does not have a built-in mechanism to ensure that they are close to the final cluster centers. However, starting with centroids too far away from the original clusters may lead to sub-optimal solutions or require more iterations for the algorithm to converge.
 
 ## Question 6
 
@@ -141,11 +141,11 @@ So, the Precision is 0.3 and the F-1 Score is 0.4.
 
 ## Question 13: Explain in which situations F1 Score is desirable over Accuracy
 
->GitHub Copilot: The F1 Score is desirable over Accuracy in situations where the data is imbalanced. This means that the number of positive samples is much less than the number of negative samples, or vice versa. 
+> GitHub Copilot: The F1 Score is desirable over Accuracy in situations where the data is imbalanced. This means that the number of positive samples is much less than the number of negative samples, or vice versa.
 
->In such cases, a model might have a high accuracy by simply predicting the majority class, but it would not be effectively identifying the minority class, which is often the point of interest. 
+> In such cases, a model might have a high accuracy by simply predicting the majority class, but it would not be effectively identifying the minority class, which is often the point of interest.
 
->The F1 Score, being the harmonic mean of Precision and Recall, gives a better measure of the incorrectly classified cases than the Accuracy Metric. It is more useful in the case of uneven class distribution as it seeks a balance between Precision and Recall.
+> The F1 Score, being the harmonic mean of Precision and Recall, gives a better measure of the incorrectly classified cases than the Accuracy Metric. It is more useful in the case of uneven class distribution as it seeks a balance between Precision and Recall.
 
 ---
 
@@ -153,10 +153,10 @@ So, the Precision is 0.3 and the F-1 Score is 0.4.
 
 ## Question 14
 
-In the following diagram  the circles are points (5, 25) and (15, 25).
+In the following diagram the circles are points (5, 25) and (15, 25).
 The triangles are (5, 1) and (5, 11). So the distance between the circle points
 is 10 points in the x1 direction and the distance between the triangle points
-is 10 points away in the x2 direction.  The crosses are two initial centroids.
+is 10 points away in the x2 direction. The crosses are two initial centroids.
 (9, 25) and (5, 4). Using your intuition, predict the final location of the
 centroids when the KNN clustering algorithm stops given that (9, 25) is
 relatively closer to the circles than the triangles and (5, 4) is relatively
