@@ -19,9 +19,9 @@
     Which of the following distance measure do we use in case of categorical
     variables in k-NN?
 
-    1)Hamming Distance
-    2)Euclidean Distance
-    3)Manhattan Distance
+    1) Hamming Distance
+    2) Euclidean Distance
+    3) Manhattan Distance
 
 - [ ] 1, 2 and 3
 - [ ] 1
