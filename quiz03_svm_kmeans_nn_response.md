@@ -9,85 +9,99 @@
   - [Question 6](#question-6)
   - [Question 7](#question-7)
   - [Question 8](#question-8)
-  - [Question 9](#question-9)
+  - [Question 9 - Partial](#question-9---partial)
   - [Question 10](#question-10)
   - [Question 11](#question-11)
   - [Question 12](#question-12)
   - [Question 13: Explain in which situations F1 Score is desirable over Accuracy](#question-13-explain-in-which-situations-f1-score-is-desirable-over-accuracy)
   - [Question 14](#question-14)
 
-
 ## Question 1: SVM cannot be used when points of both classes are scattered equally in same regions
 
 - [ ] True
 - [x] False
 
-False. Support Vector Machines (SVM) can be used even when points of both classes are scattered equally in the same regions. SVMs are effective in high dimensional spaces and are versatile as different Kernel functions can be specified for the decision function. They are also suitable for cases where the number of dimensions is greater than the number of samples.
+False. Support Vector Machines (SVM) can be used even when points of both
+classes are scattered equally in the same regions. SVMs are effective in high
+dimensional spaces and are versatile as different Kernel functions can be
+specified for the decision function. They are also suitable for cases where the
+number of dimensions is greater than the number of samples.
 
 ## Question 2: If only a few points are misclassified in SVM around the support vector, then the method uses slack variables
 
 - [x] True
 - [ ] False
 
-True. In Support Vector Machines (SVM), slack variables are introduced to handle the situation where the data is not perfectly separable. These slack variables allow some of the points to be misclassified, if this leads to a better overall separation of the classes. So, if only a few points are misclassified around the support vector, the SVM method uses slack variables to allow this.
+True. In Support Vector Machines (SVM), slack variables are introduced to
+handle the situation where the data is not perfectly separable. These slack
+variables allow some of the points to be misclassified, if this leads to a
+better overall separation of the classes. So, if only a few points are
+misclassified around the support vector, the SVM method uses slack variables
+to allow this.
 
 ## Question 3: Hierarchical clustering uses minimum distance between points in two clusters if the clusters are small and maximum distance between points in two clusters if the clusters are large
 
 - [ ] True
 - [x] False
 
-False. The distance between clusters in hierarchical clustering is determined by the linkage criteria, not the size of the clusters. The linkage criteria could be the minimum distance between points in two clusters (single linkage), the maximum distance (complete linkage), the average distance (average linkage), or other methods. The size of the clusters does not directly influence the linkage criteria.
+False. The distance between clusters in hierarchical clustering is determined
+by the linkage criteria, not the size of the clusters. The linkage criteria
+could be the minimum distance between points in two clusters (single linkage),
+the maximum distance (complete linkage), the average distance (average linkage),
+or other methods. The size of the clusters does not directly influence the
+linkage criteria.
 
 ## Question 4: K-Means Clustering algorithm is guaranteed to stop
 
 - [x] True
 - [ ] False
 
-True. The K-Means Clustering algorithm is guaranteed to stop. The algorithm iteratively assigns each data point to one of the K clusters based on the feature similarity (usually Euclidean distance). This process continues until the centroids of the clusters become stable and do not change after a given number of iterations, or the change is below a certain threshold. Therefore, it is guaranteed to stop.
+True. The K-Means Clustering algorithm is guaranteed to stop.
+The algorithm iteratively assigns each data point to one of the K clusters
+based on the feature similarity (usually Euclidean distance). This process
+continues until the centroids of the clusters become stable and do not change
+after a given number of iterations, or the change is below a certain threshold.
+Therefore, it is guaranteed to stop.
 
 ## Question 5: K-Means Clustering strictly prohibits starting with initial random centroids too far away from the original clusters
 
 - [ ] True
 - [x] False
 
-False. K-Means Clustering does not strictly prohibit starting with initial random centroids too far away from the original clusters. The initial centroids in K-Means Clustering are usually chosen randomly and the algorithm does not have a built-in mechanism to ensure that they are close to the final cluster centers. However, starting with centroids too far away from the original clusters may lead to sub-optimal solutions or require more iterations for the algorithm to converge.
+False. K-Means Clustering does not strictly prohibit starting with initial
+random centroids too far away from the original clusters. The initial centroids
+in K-Means Clustering are usually chosen randomly and the algorithm does not
+have a built-in mechanism to ensure that they are close to the final cluster
+centers. However, starting with centroids too far away from the original
+clusters may lead to sub-optimal solutions or require more iterations for the
+algorithm to converge.
 
 ## Question 6
 
-The activation function that is used in hidden layers is commonly `used` and
-the regularization commonly used is `L2 regularization`.
-
-> The activation function that is used in hidden layers is commonly ReLU (Rectified Linear Unit) and the regularization commonly used is L2 regularization.
+The activation function that is used in hidden layers is
+commonly `ReLU`\/`Relu` and the regularization commonly used
+is `dropout`\/`drop out`\/`drop neurons`\/`drop some neurons`.
 
 ## Question 7
 
-Hierarchical clustering works by starting with a `distance` matrix and initial
+Hierarchical clustering works by starting with a `proximity` matrix and initial
 points as clusters and then iteratively merging `clusters`.
-
-> Hierarchical clustering works by starting with a distance matrix and initial points as clusters and then iteratively merging the closest clusters.
 
 ## Question 8
 
-Deep neural networks use two basic capabilities. They are `feature` and `classification`.
+Deep neural networks use two basic capabilities.
+They are `Convolution`\/`pooling` and `pooling`\/`convolution`.
 
-> Deep neural networks use two basic capabilities. They are feature learning and classification.
+## Question 9 - Partial
 
-## Question 9
-
-Neural networks combine various intermediate `layers` to solve non `linearly`
-separable problems.
-
-> Neural networks combine various intermediate layers to solve non linearly separable problems.
+Neural networks combine various intermediate `features`\/`lines` to
+solve `linear`\/`linearly` non separable problems.
 
 ## Question 10
 
-SVM `Sequential Minimal Optimization (SMO)` method may take very long to execute.
-However, if the points are well separated then `Hard-Margin` SVM without slack
+SVM `kernel` method may take very long to execute.
+However, if the points are well separated then `linear` SVM without slack
 variables will work well.
-
-> SVM Sequential Minimal Optimization (SMO) method may take very long to execute.
-> However, if the points are well separated then Hard-Margin SVM without slack
-> variables will work well.
 
 ## Question 11
 
@@ -99,11 +113,22 @@ Given the equations for the hyperplanes $X2\:-12\:=\:0$ and $X2\:-\:3\:=\:0$
 for the circle and triangle, without much calculation find the missing value in
 the following equation of the decision boundary drawn in the middle.
 
-The equation is X2 - \_\_\_?\_\_\_ = 0
+The equation is X2 - ? = 0
 
 !![question 11](_markdown_attachments/quiz03_question11.png)
 
-> $x_2-\frac{12+3}{2}=0$
+```python
+# Constants from the given equations
+constant1 = 12
+constant2 = 3
+
+# Calculate the average
+average = (constant1 + constant2) / 2
+
+print(average)
+```
+
+> 7.5
 
 ## Question 12
 
@@ -158,15 +183,33 @@ So, the Precision is 0.3 and the F-1 Score is 0.4.
 
 ## Question 13: Explain in which situations F1 Score is desirable over Accuracy
 
-> GitHub Copilot: The F1 Score is desirable over Accuracy in situations where the data is imbalanced. This means that the number of positive samples is much less than the number of negative samples, or vice versa.
-
-> In such cases, a model might have a high accuracy by simply predicting the majority class, but it would not be effectively identifying the minority class, which is often the point of interest.
-
-> The F1 Score, being the harmonic mean of Precision and Recall, gives a better measure of the incorrectly classified cases than the Accuracy Metric. It is more useful in the case of uneven class distribution as it seeks a balance between Precision and Recall.
+> The F1 Score is desirable over Accuracy in situations where there is a
+> significant class imbalance in the dataset. Accuracy might provide misleading
+> evaluation metric in scenarios where one class vastly outnumbers the other;
+> that is, a model could achieve high accuracy by simply predicting the majority
+> class.
+>
+> The F1 Score, considers both precision and recall. This is valuable in
+> such cases because it provides a balanced measure that considers both false
+> positives and false negatives; and, this is particularly crucial in
+> applications like fraud detection, medical diagnosis, or rare event
+> prediction, for focus is on correctly identifying instances of the minority
+> class while minimizing both types of classification errors.
 
 ---
 
-> The F1 Score is desirable over Accuracy in situations where there is a significant class imbalance in the dataset. Accuracy might provide a misleading evaluation metric in scenarios where one class vastly outnumbers the other. That is a model could achieve high accuracy by simply predicting the majority class. The F1 Score, which considers both precision and recall. This is valuable in such cases because it provides a balanced measure that considers both false positives and false negatives; and, this is particularly crucial in applications like fraud detection, medical diagnosis, or rare event prediction, for focus is on correctly identifying instances of the minority class while minimizing both types of classification errors.
+> GitHub Copilot: The F1 Score is desirable over Accuracy in situations where
+> the data is imbalanced. This means that the number of positive samples is
+> much less than the number of negative samples, or vice versa.
+>
+> In such cases, a model might have a high accuracy by simply predicting the
+> majority class, but it would not be effectively identifying the minority
+> class, which is often the point of interest.
+>
+> The F1 Score, being the harmonic mean of Precision and Recall, gives a better
+> measure of the incorrectly classified cases than the Accuracy Metric.
+> It is more useful in the case of uneven class distribution as it seeks a
+> balance between Precision and Recall.
 
 ## Question 14
 
@@ -187,10 +230,14 @@ For triangles: (5, `6`).
 
 ![Question 14](_markdown_attachments/quiz03_question14.png)
 
-> The final location of the centroids will be calculated based on the average of the points in each cluster.
+> The final location of the centroids will be calculated based on the average
+> of the points in each cluster.
 >
-> For the circles, the points are (5, 25) and (15, 25). The centroid will be the average of these points, which is ((5+15)/2, (25+25)/2) = (10, 25).
+> For the circles, the points are (5, 25) and (15, 25). The centroid will be
+> the average of these points, which is ((5+15)/2, (25+25)/2) = (10, 25).
 >
-> For the triangles, the points are (5, 1) and (5, 11). The centroid will be the average of these points, which is ((5+5)/2, (1+11)/2) = (5, 6).
+> For the triangles, the points are (5, 1) and (5, 11). The centroid will be
+> the average of these points, which is ((5+5)/2, (1+11)/2) = (5, 6).
 >
-> So, the final location of the centroids when the KNN clustering algorithm stops will be (10, 25) for the circles and (5, 6) for the triangles.
+> So, the final location of the centroids when the KNN clustering algorithm
+> stops will be (10, 25) for the circles and (5, 6) for the triangles.
