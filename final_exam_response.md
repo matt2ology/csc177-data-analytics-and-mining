@@ -31,7 +31,8 @@ classification and regression
 ## 4
 
 ```md
-`BLANK` of error is the main important step that helps approximate the weights in a neural net
+`BLANK` of error is the main important step that helps approximate the weights
+in a neural net
 ```
 
 `Backpropagation` of error is the main important step that helps approximate
@@ -48,7 +49,8 @@ Bias is associated with `underfitting` as opposed to overfitting.
 ## 6
 
 ```md
-Sampling is the main technique for `BLANK` the size of data from the population size to a manageable size.
+Sampling is the main technique for `BLANK` the size of data from the population
+size to a manageable size.
 ```
 
 Sampling is the main technique for `reducing` the size of data from the
@@ -163,7 +165,8 @@ What are the characteristics of an Artificial Neural Network (ANN)?
 ## 11
 
 ```md
-Which of the following evaluation metrics cannot be applied in case of logistic regression output to compare with target?
+Which of the following evaluation metrics cannot be applied in case of logistic
+regression output to compare with target?
 ```
 
 - [x] Mean-Squared-Error
