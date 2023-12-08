@@ -220,7 +220,7 @@ for KNN based on performance results.
 Explain the following (think on your feet!):
 
 In the neural net topic, the back propagation of error is used iteratively in a
-cycle to update the weight and other parameters. a
+cycle to update the weight and other parameters.
 
 When does the updating stop? The most common conditions are one of the following:
 
@@ -234,6 +234,18 @@ When the limit on the number of runs is reached
 Please explain the above three conditions with your own intuition what they
 mean and why these conditions may exist.
 ```
+
+In the context of neural network training through back-propagation, the updating
+process is iteratively performed to adjust weights and biases. The decision to
+stop this process is crucial and is commonly guided by three conditions.
+First, training may halt when the new values of weights and biases show only
+incremental differences from the preceding iteration, indicating potential
+convergence. Second, the process may terminate when the misclassification rate
+reaches a predefined threshold, signifying sufficient learning and performance.
+Third, a limit on the number of training iterations is often imposed to control
+computational resources and mitigate the risk of over-fitting. Each condition
+reflects a balance between achieving accurate model performance and avoiding
+unnecessary computational costs or overtraining on the training data.
 
 ## 16
 
@@ -292,8 +304,40 @@ Details of working are as important as your answer. (3 points)
 
 **What is ROC Curve?**
 
+The ROC curve is a graph that shows how well a model can tell apart positive
+and negative cases. It plots the trade-off between correctly identifying
+positive cases (sensitivity) and wrongly identifying negative cases
+(specificity) at different decision thresholds. A steeper curve and a higher
+area under the curve mean the model is better at distinguishing between the two.
 
+**Calculation for the Precision, Recall, and F-1 Score (F measure)**:
 
+```md
+To calculate the accuracy, precision, recall, and F-1 score, we can use the
+following formulas:
+
+- **Accuracy:** \( \frac{TP + TN}{TP + FP + TN + FN} \)
+- **Precision (Positive Predictive Value):** \( \frac{TP}{TP + FP} \)
+- **Recall (Sensitivity):** \( \frac{TP}{TP + FN} \)
+- **F-1 Score:** \( \frac{2 \times \text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}} \)
+
+Given the values from the confusion matrix:
+
+- \( TP = 400 \)
+- \( FN = 300 \)
+- \( FP = 400 \)
+- \( TN = 900 \)
+
+Let's calculate:
+
+- **Accuracy:** \( \frac{400 + 900}{400 + 400 + 900 + 300} = \frac{1300}{2000} = 0.65 \)
+- **Precision:** \( \frac{400}{400 + 400} = \frac{400}{800} = 0.5 \)
+- **Recall:** \( \frac{400}{400 + 300} = \frac{400}{700} \approx 0.571 \)
+- **F-1 Score:** \( \frac{2 \times 0.5 \times 0.571}{0.5 + 0.571} \approx 0.533 \)
+
+So, the accuracy is 65%, precision is 50%, recall is approximately 57.1%, and
+the F-1 score is approximately 53.3%.
+```
 
 ## 19
 
