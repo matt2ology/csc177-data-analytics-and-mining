@@ -206,6 +206,14 @@ experimentally, and results compared to decide on a suitable proximity
 measure when performing KNN?
 ```
 
+To find the most suitable proximity measure for K-nearest neighbors (KNN),
+different distance metrics like Euclidean or Manhattan can be experimentally
+applied to a dataset with known outcomes. By comparing the algorithm's
+performance using metrics such as accuracy and precision, data scientists and
+analyst can identify the most effective proximity measure for a given dataset
+and task. This empirical approach aids in selecting the optimal distance metric
+for KNN based on performance results.
+
 ## 15
 
 ```md
@@ -233,11 +241,34 @@ mean and why these conditions may exist.
 Explain K-Means Clustering Algorithm and its Limitations.
 ```
 
+K-Means is a grouping method that organizes similar data points into clusters.
+It works by repeatedly assigning points to clusters based on their similarity
+and updating the cluster centers until convergence. It is often used for tasks
+like customer segmentation or image compression; however, K-Means has drawbacks,
+for it assumes clusters are round-shaped and of similar size, making it less
+effective with elongated or unevenly sized clusters. It requires knowing the
+number of clusters beforehand, is sensitive to initial conditions, and struggles
+with outliers. These limitations should be considered when using K-Means for
+clustering tasks.
+
 ## 17
 
 ```md
 Explain SVM and what are slack variables in SVM?
 ```
+
+SVM (Support Vector Machine) is a machine learning algorithm used for
+classification and regression tasks. It works by finding the optimal hyperplane
+that best separates different classes in a dataset, maximizing the margin
+between them.
+
+Slack variables in SVM are introduced to handle cases where a clean separation
+between classes is not possible. In real-world scenarios, data points may not
+always fall neatly on one side of the decision boundary. Slack variables allow
+for some misclassification by assigning a penalty for data points that fall on
+the wrong side or within the margin. They help SVM find a balance between
+achieving a broader margin and allowing for a certain degree of classification
+error, making the model more flexible in handling complex datasets.
 
 ## 18
 
@@ -258,6 +289,11 @@ Details of working are as important as your answer. (3 points)
 | **Actual Positive** | TP = 400           | FN=300             |
 | **Actual Negative** | FP = 400           | TN=900             |
 ```
+
+**What is ROC Curve?**
+
+
+
 
 ## 19
 
