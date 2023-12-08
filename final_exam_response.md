@@ -339,6 +339,22 @@ So, the accuracy is 65%, precision is 50%, recall is approximately 57.1%, and
 the F-1 score is approximately 53.3%.
 ```
 
+**Provide an example with a change in data in the confusion matrix,**
+**how the F-1 score has more value than the Accuracy measure for a specific**
+**use case, where accuracy score may be misleading.**
+
+The F-1 score holds greater value than accuracy in situations with imbalanced
+datasets, where one class significantly outweighs the other. Accuracy can be
+misleading in such cases, as a model may achieve a high accuracy by
+disproportionately predicting the majority class while neglecting the minority
+class. This imbalance is exemplified in scenarios like medical diagnosis, where
+rare diseases constitute only a small fraction of instances. In contrast, the
+F-1 score balances precision and recall, providing a more nuanced evaluation
+that considers false positives and false negatives. This makes the F-1 score
+particularly useful when the consequences of misclassifying one class are more
+critical than the other, offering a more accurate measure of a model's
+performance in scenarios with imbalanced class distributions.
+
 ## 19
 
 ```md
@@ -376,3 +392,11 @@ Show all working. You may do your working on paper and upload your working
 is very clear and you upload a PDF file).
 Details of working are as important as your final answer.
 ```
+
+**Explain how correction is applied when probabilities are zero to get non-zero**
+**probabilities in Naive Bayes classification.**
+
+By applying Laplace smoothing, you ensure that even if a feature value has not
+been observed with a particular class in the training data, it still contributes
+to the probability calculation with a small non-zero value, preventing issues
+associated with zero probabilities in the Naive Bayes algorithm.
