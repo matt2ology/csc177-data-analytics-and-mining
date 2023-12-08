@@ -96,7 +96,7 @@ Substitute these values into the formula:
 So, the probability of rain when the grass is wet is \( 18.2\% \).
 ```
 
-## 8:
+## 8
 
 ```md
 Deep learning uses mostly the `BLANK` activation function in the hidden layers.
@@ -155,7 +155,10 @@ K - Means Clustering
 What are the characteristics of an Artificial Neural Network (ANN)?
 ```
 
--[x] It can handle redundant and irrelevant attributes because weights are automatically learnt for all attributes -[x] It is sensitive to noise in training data -[x] It represents a hierarchy of features at multiple levels of abstractions -[ ] It is extremely fast in handling missing attributes
+- [x] It can handle redundant and irrelevant attributes because weights are automatically learnt for all attributes
+- [x] It is sensitive to noise in training data
+- [x] It represents a hierarchy of features at multiple levels of abstractions
+- [ ] It is extremely fast in handling missing attributes
 
 ## 11
 
@@ -163,7 +166,10 @@ What are the characteristics of an Artificial Neural Network (ANN)?
 Which of the following evaluation metrics cannot be applied in case of logistic regression output to compare with target?
 ```
 
--[x] Mean-Squared-Error -[ ] AUC-ROC -[ ] Accuracy -[ ] LogLoss
+- [x] Mean-Squared-Error
+- [ ] AUC-ROC
+- [ ] Accuracy
+- [ ] LogLoss
 
 ## 12
 
@@ -171,7 +177,10 @@ Which of the following evaluation metrics cannot be applied in case of logistic 
 In k-NN what will happen when you increase/decrease the value of k?
 ```
 
--[ ] The boundary becomes smoother with decreasing value of K -[ ] Smoothness of boundary doesn’t dependent on value of K -[x] The boundary becomes smoother with increasing value of K -[ ] None of these
+- [ ] The boundary becomes smoother with decreasing value of K
+- [ ] Smoothness of boundary doesn’t dependent on value of K
+- [x] The boundary becomes smoother with increasing value of K
+- [ ] None of these
 
 ## 13
 
@@ -179,7 +188,10 @@ In k-NN what will happen when you increase/decrease the value of k?
 Which of the following is an example of predicting regression?
 ```
 
--[ ] Predicting wind velocities -[x] Predicting sales amounts of new product based on advertising expenditure. -[ ] Time series prediction of stock market indices -[ ] Predicting tumor cells as benign or malignant
+- [ ] Predicting wind velocities
+- [x] Predicting sales amounts of new product based on advertising expenditure.
+- [ ] Time series prediction of stock market indices
+- [ ] Predicting tumor cells as benign or malignant
 
 ## 14
 
@@ -271,7 +283,7 @@ Using Naive Bayes method, find the class for the test record with height
 
 (a) with the traditional naive bayes independence condition, and (6 points)
 
-(b)  without the independence condition (6 points)
+(b) without the independence condition (6 points)
 
 Compare and explain the reasons for the differences and what the differences
 mean intuitively. (3 points)
